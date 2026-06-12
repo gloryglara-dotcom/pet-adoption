@@ -1,0 +1,73 @@
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:linear-gradient(to right,#74ebd5,#acb6e5);
+}
+
+.container{
+  text-align:center;
+  padding:40px;
+}
+
+button{
+  padding:10px 20px;
+  margin:10px;
+  border:none;
+  border-radius:10px;
+  background:#ff6b6b;
+  color:white;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#ff4757;
+}
+
+input{
+  padding:10px;
+  width:250px;
+  margin:10px;
+}
+
+.card{
+  background:white;
+  width:250px;
+  margin:20px auto;
+  padding:20px;
+  border-radius:15px;
+}
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background-image:url("./assets/background4.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  min-height:100vh;
+}
+.pet-container{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  flex-wrap:wrap;
+  margin-bottom:40px;
+}
+
+.pet-card{
+  background:white;
+  padding:15px;
+  border-radius:15px;
+  box-shadow:0 4px 10px gray;
+  text-align:center;
+}
+
+.pet-card img{
+  width:220px;
+  height:180px;
+  border-radius:10px;
+  object-fit:cover;
+}
+
+.pet-card button{
+  margin-top:10px;
+}
